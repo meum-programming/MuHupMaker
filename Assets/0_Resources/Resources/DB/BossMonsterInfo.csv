@@ -1,0 +1,9 @@
+﻿MonsterID,MonsterName,MonsterPrefab,HP,PowMP,PowAP,PowMPDef,PowAPDef,AtkSpeed,MovSpeed,Condition_01,Condition_02,Exp,Gold,AllDropGroupItemID,KillDropGroupItemID,RegenTme
+101001,산적대장(동),S1_BossMonster_01,2000,1,1,1,1,10000,0,,,10,200,1,1,1800
+101002,산적대장(서),S1_BossMonster_01,3000,2,2,2,2,10000,0,,,10,200,1,1,1800
+101003,산적대장(남),S1_BossMonster_01,4000,3,3,3,3,10000,0,,,10,200,1,1,1800
+101004,산적대장(북),S1_BossMonster_01,5000,4,4,4,4,10000,0,,,10,200,1,1,1800
+201001,무법자(동),S2_BossMonster_01,6000,5,5,5,5,10000,0,,,10,400,2,2,1800
+201002,무법자(서),S2_BossMonster_01,7000,6,6,6,6,10000,0,,,10,400,2,2,1800
+201003,무법자(남),S2_BossMonster_01,8000,7,7,7,7,10000,0,,,10,400,2,2,1800
+201004,무법자(북),S2_BossMonster_01,9000,8,8,8,8,10000,0,,,10,400,2,2,1800

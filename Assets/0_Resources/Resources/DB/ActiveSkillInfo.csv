@@ -1,0 +1,6 @@
+﻿ActiveSkillID,ActiveSkillName,ActiveSkillPrefab,ActiveSkillIcon,Target,CoolTime,UseHP,UseMP,UseAP,DmgType_01,DmgTypeValue_01,DmgType_02,DmgTypeValue_02,DmgType_03,DmgTypeValue_03,Condition_01,ConditionValue_01,ConditionTime_01,Condition_02,ConditionValue_02,ConditionTime_02,Condition_03,ConditionValue_03,ConditionTime_03
+10001,용쟁투,,,2,10,0,100,100,1,125,2,62.5,3,62.5,0,0,0,0,0,0,0,0,0
+10002,비려검,,,2,10,0,100,100,1,167,2,83.5,3,83.5,0,0,0,0,0,0,0,0,0
+10003,사황천후,,,2,10,0,100,100,1,500,2,250,3,250,0,0,0,0,0,0,0,0,0
+10004,소마극,,,2,10,0,100,100,1,500,2,250,3,250,0,0,0,0,0,0,0,0,0
+10005,부파산,,,2,10,0,100,100,1,167,2,83.5,3,83.5,0,0,0,0,0,0,0,0,0

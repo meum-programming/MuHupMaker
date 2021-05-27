@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "356860574367",
+    "firebase_url": "https://muhwang-638cc.firebaseio.com",
+    "project_id": "muhwang-638cc",
+    "storage_bucket": "muhwang-638cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356860574367:android:5d85e81be55b06334f40aa",
+        "android_client_info": {
+          "package_name": "com.sbent.muhwang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356860574367-al27jnt52p8kqp8qoh0kh01sml5oen76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqPJu7-JKDZpULwfmJfSN2OaNGwiU3fO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356860574367-al27jnt52p8kqp8qoh0kh01sml5oen76.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "356860574367-77322r47nao6dvddge2lvqh1k859b8rv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sbent.muhwang"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

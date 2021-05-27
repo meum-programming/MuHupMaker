@@ -1,0 +1,3 @@
+﻿CharID,CharPrefab,HP,MP,AP,PowMP,PowAP,PowMPDef,PowAPDef,AtkSpeed,MovSpeed,CrtRate,CrtDmg,Dodge
+100101,CharMan_01,50,20,20,1,1,0,0,10000,10000,2000,12000,0
+100201,CharWoman_01,50,20,20,1,1,0,0,10000,10000,2000,12000,0
