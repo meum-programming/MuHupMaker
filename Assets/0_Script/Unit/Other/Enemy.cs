@@ -53,10 +53,13 @@ namespace A_Script
         protected override void WithUI()
         {
             base.WithUI();
-            ui.GetComponentInChildren<Text>().text = OriginData.name;
+
+            //보스라면 게임메니져에서 이름을 가져온다.
+            string unitName = OriginData.bossOn == false ? 
+                              OriginData.name : GameManager.i.GetFieldBossData().name;
+
             
-
-
+            ui.GetComponentInChildren<Text>().text = unitName;
         }
     }
 }

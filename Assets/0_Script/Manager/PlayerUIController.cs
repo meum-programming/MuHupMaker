@@ -90,7 +90,12 @@ public class PlayerUIController : MonoBehaviour
         fieldBossCntText.gameObject.SetActive(true);
 
         bool iconActiveOn = data.currnetFieldBossCount >= data.maxFieldBossCount;
-        fieldBossBtn.gameObject.SetActive(iconActiveOn);
+
+        if (iconActiveOn)
+        {
+            fieldBossBtn.gameObject.SetActive(iconActiveOn);
+            BossActiveOn();
+        }
     }
 
     public void BossActiveOn()
@@ -109,7 +114,8 @@ public class PlayerUIController : MonoBehaviour
 
         yield return new WaitForSeconds(5);
 
-        GameManager.i.LoadBeforeScene();
+        //GameManager.i.LoadBeforeScene();
+        GameManager.i.LoadNextScene();
     }
 
     /// <summary>

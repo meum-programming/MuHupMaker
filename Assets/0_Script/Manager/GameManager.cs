@@ -173,6 +173,42 @@ namespace A_Script
             player.Reset();
         }
 
+        public void LoadNextScene()
+        {
+            string beforeSceneName = beforeScene;
+            beforeScene = activeScene;
+            
+            string[] sceneNameSplit = beforeSceneName.Split('_');
+
+            string newSceneName = beforeSceneName;
+
+            if (sceneNameSplit.Length == 3)
+            {
+                int typeNum = int.Parse(sceneNameSplit[1]);
+                int stageNum = int.Parse(sceneNameSplit[2]);
+
+                stageNum += 1;
+
+                if (stageNum > 4)
+                {
+                    stageNum = 1;
+                    typeNum += 1;
+
+                    if (typeNum > 8)
+                    {
+                        typeNum = 1;
+                    }
+                }
+
+                newSceneName = string.Format("Stage_{0:d2}_{1:d2}", typeNum, stageNum);
+            }
+
+            activeScene = newSceneName;
+            SceneManager.LoadScene(activeScene);
+            player.Reset();
+        }
+
+
         /// <summary>
         /// 아이템 세팅
         /// </summary>
@@ -325,7 +361,16 @@ namespace A_Script
 
         public FieldBossData GetFieldBossData()
         {
-            return fieldBossDataDic[activeScene];
+            if (fieldBossDataDic.ContainsKey(activeScene))
+            {
+                return fieldBossDataDic[activeScene];
+            }
+            else if (fieldBossDataDic.ContainsKey(beforeScene))
+            {
+                return fieldBossDataDic[beforeScene];
+            }
+
+            return null;
         }
     }
 
